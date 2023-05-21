@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43374B32A16855300F302C1 /* Installed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43374B22A16855300F302C1 /* Installed.swift */; };
+		D43374B52A16864200F302C1 /* PluginDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43374B42A16864200F302C1 /* PluginDownload.swift */; };
+		D43374B72A168E7F00F302C1 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43374B62A168E7F00F302C1 /* Version.swift */; };
+		D46689782A1528510090D8B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46689772A1528510090D8B5 /* AppDelegate.swift */; };
+		D46689812A1528520090D8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46689802A1528520090D8B5 /* Assets.xcassets */; };
+		D46689842A1528520090D8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46689822A1528520090D8B5 /* LaunchScreen.storyboard */; };
+		D466898C2A152B0B0090D8B5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466898B2A152B0B0090D8B5 /* HomeController.swift */; };
+		D466898E2A152B130090D8B5 /* GroceryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466898D2A152B130090D8B5 /* GroceryController.swift */; };
+		D46689902A152B1C0090D8B5 /* MoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466898F2A152B1C0090D8B5 /* MoreController.swift */; };
+		D46689922A1535AC0090D8B5 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46689912A1535AC0090D8B5 /* Plugin.swift */; };
+		D46689942A15372F0090D8B5 /* GroceryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46689932A15372F0090D8B5 /* GroceryViewModel.swift */; };
+		D46689962A1540830090D8B5 /* InstallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46689952A1540830090D8B5 /* InstallButton.swift */; };
+		D46689982A15408D0090D8B5 /* Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46689972A15408D0090D8B5 /* Installer.swift */; };
+		D4672A5B2A15D9D100F982EC /* PluginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4672A5A2A15D9D100F982EC /* PluginInfoController.swift */; };
+		D4672A5D2A172B3000F982EC /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4672A5C2A172B3000F982EC /* Downloader.swift */; };
+		D4672A602A17497F00F982EC /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = D4672A5F2A17497F00F982EC /* Zip */; };
+		D4672A622A1751CE00F982EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4672A612A1751CE00F982EC /* HomeViewModel.swift */; };
+		D4672A642A17573000F982EC /* PluginEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4672A632A17573000F982EC /* PluginEntrance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D43374B22A16855300F302C1 /* Installed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installed.swift; sourceTree = "<group>"; };
+		D43374B42A16864200F302C1 /* PluginDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginDownload.swift; sourceTree = "<group>"; };
+		D43374B62A168E7F00F302C1 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		D46689742A1528510090D8B5 /* Cornucopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cornucopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46689772A1528510090D8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46689802A1528520090D8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46689832A1528520090D8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46689852A1528520090D8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466898B2A152B0B0090D8B5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D466898D2A152B130090D8B5 /* GroceryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryController.swift; sourceTree = "<group>"; };
+		D466898F2A152B1C0090D8B5 /* MoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreController.swift; sourceTree = "<group>"; };
+		D46689912A1535AC0090D8B5 /* Plugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
+		D46689932A15372F0090D8B5 /* GroceryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewModel.swift; sourceTree = "<group>"; };
+		D46689952A1540830090D8B5 /* InstallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallButton.swift; sourceTree = "<group>"; };
+		D46689972A15408D0090D8B5 /* Installer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installer.swift; sourceTree = "<group>"; };
+		D4672A5A2A15D9D100F982EC /* PluginInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginInfoController.swift; sourceTree = "<group>"; };
+		D4672A5C2A172B3000F982EC /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		D4672A612A1751CE00F982EC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D4672A632A17573000F982EC /* PluginEntrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginEntrance.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46689712A1528510090D8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4672A602A17497F00F982EC /* Zip in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D466896B2A1528510090D8B5 = {
+			isa = PBXGroup;
+			children = (
+				D46689762A1528510090D8B5 /* Cornucopia */,
+				D46689752A1528510090D8B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46689752A1528510090D8B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46689742A1528510090D8B5 /* Cornucopia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46689762A1528510090D8B5 /* Cornucopia */ = {
+			isa = PBXGroup;
+			children = (
+				D46689772A1528510090D8B5 /* AppDelegate.swift */,
+				D46689802A1528520090D8B5 /* Assets.xcassets */,
+				D46689822A1528520090D8B5 /* LaunchScreen.storyboard */,
+				D46689852A1528520090D8B5 /* Info.plist */,
+				D466898B2A152B0B0090D8B5 /* HomeController.swift */,
+				D4672A612A1751CE00F982EC /* HomeViewModel.swift */,
+				D466898D2A152B130090D8B5 /* GroceryController.swift */,
+				D46689932A15372F0090D8B5 /* GroceryViewModel.swift */,
+				D466898F2A152B1C0090D8B5 /* MoreController.swift */,
+				D46689952A1540830090D8B5 /* InstallButton.swift */,
+				D46689972A15408D0090D8B5 /* Installer.swift */,
+				D43374B22A16855300F302C1 /* Installed.swift */,
+				D4672A5A2A15D9D100F982EC /* PluginInfoController.swift */,
+				D43374B42A16864200F302C1 /* PluginDownload.swift */,
+				D4672A5C2A172B3000F982EC /* Downloader.swift */,
+				D43374B62A168E7F00F302C1 /* Version.swift */,
+				D46689912A1535AC0090D8B5 /* Plugin.swift */,
+				D4672A632A17573000F982EC /* PluginEntrance.swift */,
+			);
+			path = Cornucopia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46689732A1528510090D8B5 /* Cornucopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46689882A1528520090D8B5 /* Build configuration list for PBXNativeTarget "Cornucopia" */;
+			buildPhases = (
+				D46689702A1528510090D8B5 /* Sources */,
+				D46689712A1528510090D8B5 /* Frameworks */,
+				D46689722A1528510090D8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cornucopia;
+			packageProductDependencies = (
+				D4672A5F2A17497F00F982EC /* Zip */,
+			);
+			productName = Cornucopia;
+			productReference = D46689742A1528510090D8B5 /* Cornucopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D466896C2A1528510090D8B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D46689732A1528510090D8B5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D466896F2A1528510090D8B5 /* Build configuration list for PBXProject "Cornucopia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D466896B2A1528510090D8B5;
+			packageReferences = (
+				D4672A5E2A17497F00F982EC /* XCRemoteSwiftPackageReference "Zip" */,
+			);
+			productRefGroup = D46689752A1528510090D8B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46689732A1528510090D8B5 /* Cornucopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46689722A1528510090D8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46689842A1528520090D8B5 /* LaunchScreen.storyboard in Resources */,
+				D46689812A1528520090D8B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46689702A1528510090D8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4672A5B2A15D9D100F982EC /* PluginInfoController.swift in Sources */,
+				D46689942A15372F0090D8B5 /* GroceryViewModel.swift in Sources */,
+				D46689962A1540830090D8B5 /* InstallButton.swift in Sources */,
+				D46689982A15408D0090D8B5 /* Installer.swift in Sources */,
+				D43374B32A16855300F302C1 /* Installed.swift in Sources */,
+				D46689902A152B1C0090D8B5 /* MoreController.swift in Sources */,
+				D43374B52A16864200F302C1 /* PluginDownload.swift in Sources */,
+				D46689782A1528510090D8B5 /* AppDelegate.swift in Sources */,
+				D4672A5D2A172B3000F982EC /* Downloader.swift in Sources */,
+				D4672A622A1751CE00F982EC /* HomeViewModel.swift in Sources */,
+				D466898C2A152B0B0090D8B5 /* HomeController.swift in Sources */,
+				D46689922A1535AC0090D8B5 /* Plugin.swift in Sources */,
+				D43374B72A168E7F00F302C1 /* Version.swift in Sources */,
+				D4672A642A17573000F982EC /* PluginEntrance.swift in Sources */,
+				D466898E2A152B130090D8B5 /* GroceryController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D46689822A1528520090D8B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46689832A1528520090D8B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46689862A1528520090D8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46689872A1528520090D8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46689892A1528520090D8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5V8DJBQ6XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cornucopia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cornucopia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "current plugin is requesting access to Photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shayanbo.cornucopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D466898A2A1528520090D8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5V8DJBQ6XZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cornucopia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cornucopia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "current plugin is requesting access to Photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shayanbo.cornucopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D466896F2A1528510090D8B5 /* Build configuration list for PBXProject "Cornucopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46689862A1528520090D8B5 /* Debug */,
+				D46689872A1528520090D8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46689882A1528520090D8B5 /* Build configuration list for PBXNativeTarget "Cornucopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46689892A1528520090D8B5 /* Debug */,
+				D466898A2A1528520090D8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4672A5E2A17497F00F982EC /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4672A5F2A17497F00F982EC /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4672A5E2A17497F00F982EC /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D466896C2A1528510090D8B5 /* Project object */;
+}
