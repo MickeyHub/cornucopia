@@ -16,9 +16,9 @@ I think many functionalities shouldn't be an individual app. Instead, we can col
 
 # Plugin
 
-Plugin is actually a dynamic framework shipping with a manifest file called 'Cornucopia.plist' which describes the plugin and used in Grocery. for safety reason, we should better use swift because it features namespace which is used to avoid conflict over symbol.
+Plugin is actually a dynamic framework shipping with a manifest file called 'Cornucopia.plist' which describes the plugin and used in Grocery. for safety reason, we should better use swift because it features namespace which is used to avoid conflict over symbols.
 
-# Limit
+# Limitation
 
 Since all of the plugins are frameworks without codesigning, so it's impossible to submit this app to the App Store. you can run it onto your iPhone straight away, I'm considering deploy it with an Enterprise Account.
 
