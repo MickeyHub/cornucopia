@@ -2,6 +2,8 @@
   <img style="margin: 0 auto" src="Cornucopia/Cornucopia/Assets.xcassets/AppIcon.appiconset/AppIcon@3x.png" width="200" height="200"/>
 </div>
 
+⚠️ This project has been ended up with the fact that it's impossible to load dynamic libraries from sandbox on devices with iOS10+ 😂
+
 # Cornucopia
 
 Cornucopia is an app like App Store, you can install a huge amount of plugins (not so many yet) from the "grocery tab" which will fetch data from the another repo called [Cornucopia Center](https://github.com/MickeyHub/cornucopia_center). All you have to do is deploying this app onto your iPhone. and choose the plugins you wanna use.
